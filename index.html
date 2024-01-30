@@ -11,21 +11,35 @@
 <body>
     <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
         <div>
+            <input type="text" id="name-user" placeholder="nome  ">
             <input type="number" id="input-km" placeholder="km da fare">
             <input type="number" id="age" placeholder="età">
         </div>
         
-        <button id="invia">
-            Invia
+        <button id="invia" type="submit">
+            GENERA
         </button>
-
+        
+    <!-- <h2 id="yourTicket"></h2> -->
+    <h3 id=""></h3>
     <div id="risposte">
         <p></p>
         <p></p>
         <p></p>
 
     </div>
+    <div class="biglietto">
+        <h2 id="yourTicket"></h2>
+        <p><strong>NOME PASSEGGERO</strong> <span id="nome"></span></p>
+        <p><strong>Offerta</strong> <span id="offerta"></span></p>
+        <p><strong>Carrozza</strong> <span id="carrozza"></span></p>
+        <p><strong>Codice CP</strong> <span id="codice"></span></p>
+        <p><strong>Costo biglietto</strong> <span id="pricePrint"></span></p>
+    </div>
 
+
+
+    
     <script src="./js/script.js"></script>
 </body>
 </html>

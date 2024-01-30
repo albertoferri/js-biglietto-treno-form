@@ -1,3 +1,41 @@
+body{
+    font-family: sans-serif;
+}
+.biglietto{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    border: 13px inset #1C6EA4;
+    border-radius: 17px;
+    padding: 10px;
+}
+
+#yourTicket,
+.biglietto p span,
+.biglietto p strong{
+    height: 30px;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.biglietto p{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+
+
+
+
+
+
 /* rimozione freccie per cambiare numeri negli input */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
