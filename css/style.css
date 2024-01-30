@@ -1,15 +1,59 @@
 body{
     font-family: sans-serif;
+    background-color: #b91450;
 }
+
+.row{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+
+    border: 13px inset #1C6EA4;
+    border-radius: 17px;
+    margin-bottom: 40px;
+
+    background-color: white;
+}
+
+.col{
+    width: 100%;
+}
+
+.col:first-child, .col-2, h1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.col label{
+    display: block;
+    text-align: center;
+}
+
+.small-cont{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.container-size{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
 .biglietto{
     display: flex;
     gap: 10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     
     border: 13px inset #1C6EA4;
     border-radius: 17px;
     padding: 10px;
+    background-color: white;
+
 }
 
 #yourTicket,
@@ -26,6 +70,8 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    padding: 10px;
+    margin: 0;
 }
 
 

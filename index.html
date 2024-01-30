@@ -10,31 +10,51 @@
 </head>
 <body>
     <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
-        <div>
-            <input type="text" id="name-user" placeholder="nome  ">
-            <input type="number" id="input-km" placeholder="km da fare">
-            <input type="number" id="age" placeholder="età">
+    <div class="container-size">
+        <div class="row">
+            <div class="col">
+                <div class="small-cont">
+                    <label for="name-user">Nome Cognome</label>
+                    <input type="text" id="name-user">
+                </div>
+                <div class="small-cont">
+                    <label for="input-km">Km da percorrere</label>
+                    <input type="number" id="input-km">
+                </div>
+                <div class="small-cont">
+                    <label for="age">Età</label>
+                    <input type="number" id="age">
+                </div>
+            </div>
+            
+            <div class="col-2">
+                <button id="invia" type="submit">
+                    GENERA
+                </button>
+                <button id="reset" type="reset">
+                    ANNULLA
+                </button>
+            </div>
         </div>
+    </div>
         
-        <button id="invia" type="submit">
-            GENERA
-        </button>
-        
-    <!-- <h2 id="yourTicket"></h2> -->
-    <h3 id=""></h3>
+
+    <!-- <h3 id=""></h3>
     <div id="risposte">
         <p></p>
         <p></p>
         <p></p>
+    </div> -->
 
-    </div>
-    <div class="biglietto">
-        <h2 id="yourTicket"></h2>
-        <p><strong>NOME PASSEGGERO</strong> <span id="nome"></span></p>
-        <p><strong>Offerta</strong> <span id="offerta"></span></p>
-        <p><strong>Carrozza</strong> <span id="carrozza"></span></p>
-        <p><strong>Codice CP</strong> <span id="codice"></span></p>
-        <p><strong>Costo biglietto</strong> <span id="pricePrint"></span></p>
+    <div class="container-size">
+        <div class="biglietto">
+            <h2 id="yourTicket"></h2>
+            <p><strong>NOME PASSEGGERO</strong> <span id="nome"></span></p>
+            <p><strong>Offerta</strong> <span id="offerta"></span></p>
+            <p><strong>Carrozza</strong> <span id="carrozza"></span></p>
+            <p><strong>Codice CP</strong> <span id="codice"></span></p>
+            <p><strong>Costo biglietto</strong> <span id="pricePrint"></span></p>
+        </div>
     </div>
 
 
