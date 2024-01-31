@@ -55,7 +55,7 @@ function() {
     document.getElementById("pStyle3").style.borderBottom = "thick solid #808080";
     document.getElementById("pStyle4").style.borderBottom = "thick solid #808080";
 
-    document.getElementById("yourTicket").style.fontSize = 80;
+    document.querySelector(".biglietto").style.display = "flex";
 
     
         console.log("LA TUA DISTANZA E' DI " + km + " km");

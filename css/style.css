@@ -45,7 +45,7 @@ body{
 
 
 .biglietto{
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     
     border: 13px inset #1C6EA4;
@@ -69,6 +69,8 @@ body{
     justify-content: center;
     font-size: 18px;
 }
+
+
 
 .biglietto p{
     display: flex;
