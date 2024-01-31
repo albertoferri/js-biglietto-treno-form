@@ -28,6 +28,7 @@ body{
 .col label{
     display: block;
     text-align: center;
+    font-weight: bold;
 }
 
 .small-cont{
@@ -45,15 +46,17 @@ body{
 
 .biglietto{
     display: flex;
-    gap: 10px;
-    justify-content: space-evenly;
     flex-wrap: wrap;
     
     border: 13px inset #1C6EA4;
     border-radius: 17px;
     padding: 10px;
     background-color: white;
+}
 
+#ticketBottom{
+    display: flex;
+    width: 100%;
 }
 
 #yourTicket,
@@ -64,14 +67,16 @@ body{
     color: black;
     display: flex;
     justify-content: center;
+    font-size: 18px;
 }
 
 .biglietto p{
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    padding: 10px;
+    gap: 10px;
+    padding: 15px;
     margin: 0;
+    width: calc(100% / 5);
 }
 
 

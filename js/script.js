@@ -42,6 +42,20 @@ function() {
     document.querySelector('#codice').innerText = '92911';
     
     
+    let parBg = document.getElementById("targetParagraph");
+    parBg.style.backgroundColor = "grey";
+
+    document.getElementById("pStyle").style.borderTop = "thick solid #808080";
+    document.getElementById("pStyle2").style.borderTop = "thick solid #808080";
+    document.getElementById("pStyle3").style.borderTop = "thick solid #808080";
+    document.getElementById("pStyle4").style.borderTop = "thick solid #808080";
+
+    document.getElementById("pStyle").style.borderBottom = "thick solid #808080";
+    document.getElementById("pStyle2").style.borderBottom = "thick solid #808080";
+    document.getElementById("pStyle3").style.borderBottom = "thick solid #808080";
+    document.getElementById("pStyle4").style.borderBottom = "thick solid #808080";
+
+    document.getElementById("yourTicket").style.fontSize = 80;
 
     
         console.log("LA TUA DISTANZA E' DI " + km + " km");
